@@ -1,0 +1,35 @@
+{
+  "name": "connectjs",
+  "version": "1.0.0",
+  "description": "Back-End for ConnectJS Management Application.",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "keywords": [
+    "nodejs",
+    "expressjs",
+    "postgresql"
+  ],
+  "author": "Bryan Oliver (@kinetics)",
+  "license": "ISC",
+  "dependencies": {
+    "assert": "^1.3.0",
+    "azure": "^0.10.6",
+    "body-parser": "^1.13.3",
+    "chalk": "^1.1.0",
+    "cors": "^2.7.1",
+    "express": "^4.13.3",
+    "express-validator": "^2.15.1",
+    "jsonwebtoken": "^5.0.4",
+    "mocha": "^2.2.5",
+    "moment": "^2.10.6",
+    "okay": "^1.0.0",
+    "passport": "^0.2.2",
+    "passport-jwt-strategy": "^1.1.3",
+    "pg": "^4.4.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.7.0"
+  }
+}
